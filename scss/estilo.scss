@@ -1,0 +1,106 @@
+$paleta: (clarito : rgb(255, 239, 223), oscurito: 
+rgb(236, 204, 172), oscuro: rgb(184, 149, 113), muy-oscuro: rgb(56, 44, 31));
+
+
+body{
+    background-color: map-get($paleta, clarito) !important;
+}
+.bgNav{
+    background-color: map-get($paleta, oscurito );
+}
+.radioIcon{
+    display: inline-block;
+    width: 40px;
+}
+.radio{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.radioA{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .mainIcon{
+        display: inline-block;
+        width: 250px;
+    }
+    .title{
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+    .subTitle{
+        font-size: 1.2rem;
+    }
+}
+.bgOscuro{
+    background-color: map-get($paleta, oscurito );
+}
+.colum{
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+}
+.aDiv{
+    background-color: map-get($paleta, clarito);
+}
+.redes{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.seleccionador{
+    margin-top: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.video{
+    margin-top: 20px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: map-get($paleta, oscurito );
+    border-radius: 20px;
+
+}
+.socialmedia{
+    display: inline-block;
+    width: 180px;
+    margin-top: 20px;
+}
+.bgOs{
+    background-color: map-get($paleta, oscuro );
+    border: black solid 1px;
+    color: map-get($paleta, muy-oscuro );
+}
+.subTitleD{
+    text-align: center;
+    font-size: 1rem;
+}
+.offer{
+    text-align: center;
+}
+.subTitle1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.link1{
+    color: map-get($paleta, muy-oscuro );
+}
+.text-black{
+    color: black;
+    text-decoration: none;
+}
